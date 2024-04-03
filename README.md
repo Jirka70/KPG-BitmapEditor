@@ -46,6 +46,7 @@ Project is made in JavaFX framework. To launch project, just pull it to your fav
 # Magic wand
 - when clicking `Use Magic Wand` button, user is able to select all similar continuous pixels to the clicked one.
 - algorithm is based on BFS, when all the similar neighbours (pixels) are added to the set of pixels, which is lately displayed straight on the image.
+- if magic wand is applied more times, the marked set of pixels will stay in the image. 
 - Similarity of two pixels is determined as:
   - $`\sqrt[4]{(a1 - a2)^4 + (r1 - r2)^4 + (g1 - g2)^4 + (b1 - b2)^4} < TOLERANCE`$
   - where `a1` and `a2` stands for alpha value of first comparing pixel and for second comparing pixel
